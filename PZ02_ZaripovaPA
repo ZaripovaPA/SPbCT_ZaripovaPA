@@ -1,0 +1,276 @@
+1. 
+package com.company;
+
+public class PZ2 {
+    public static void main(String[] args) {
+
+        char symb1=1067;
+        char symb2 ='Ы';
+
+        System.out.println("symb1 contains "+ symb1);
+        System.out.println("symb2 contains "+ symb2);
+    }
+}
+
+2. 
+package com.company;
+
+public class PZ2 {
+    public static void main(String[] args) {
+
+        char ch = 'J';
+        int intCh = (int) ch;
+
+        System.out.println("J corresponds with "+ intCh);
+    }
+}
+
+3. 
+package com.company;
+
+public class PZ2 {
+    public static void main(String[] args) {
+
+        String s1 = "I have ";
+        String s2 = " apples ";
+        int num = 3;
+        String s = s1 + num + s2;
+
+        System.out.println(s);
+    }
+}
+
+4.
+package com.company;
+
+public class PZ2 {
+    public static void main(String[] args) {
+        byte x=5;
+        byte y1=x++;
+        byte y2=x--;
+        byte y3=++x;
+        byte y4=--x;
+        System.out.println(y1);
+        System.out.println(y2);
+        System.out.println(y3);
+        System.out.println(y4); }
+}
+
+5.
+package com.metanit;
+
+public class Main {
+
+    public static void main(String[] args) {
+
+        int x= 300000;
+
+        System.out.print(x*x);
+
+    }
+
+}
+6.
+package com.metanit;
+
+public class Main {
+
+    public static void main(String[] args) {
+
+        System.out.print(1000*60*60*24*7);
+
+        System.out.print(1000*60*60*24*30);
+
+    }
+
+}
+
+7.
+package com.metanit;
+
+public class Main {
+
+    public static void main(String[] args) {
+
+        byte x=-128;
+
+        System.out.print(-x);
+
+        byte y=127;
+
+        System.out.print(++y);
+
+    }
+
+}
+
+8.
+package com.metanit;
+
+public class Main {
+
+    public static void main(String[] args) {
+
+        int x=1;
+
+        System.out.print("x="+x);
+
+    }
+
+}
+
+9.
+package com.metanit;
+
+public class Main {
+
+    public static void main(String[] args) {
+
+        System.out.print(1+2+"text");
+
+        System.out.print("text"+1+2);
+
+    }
+
+}
+
+10.
+package com.metanit;
+
+public class Main {
+
+    public static void main(String[] args) {
+
+        char c='A';
+
+        System.out.print(c);
+
+        System.out.print(c+1);
+
+        System.out.print("c="+c);
+
+        System.out.print('c' + '=' + c);
+
+    }
+
+}
+
+11.
+package com.metanit;
+
+public class Main {
+
+    public static void main(String[] args) {
+
+        System.out.print(1e20f*1e20f);
+
+        System.out.print(-1e200*1e200);
+
+    }
+
+}
+
+12.
+package com.metanit;
+
+public class Main {
+
+    public static void main(String[] args) {
+
+        System.out.print(1e-40f/1e10f);
+
+        System.out.print(-1e-300/1e100);
+
+        float f=1e-6f;
+
+        System.out.print(f);
+
+        f+=0.002f;
+
+        System.out.print(f);
+
+        f+=3;
+
+        System.out.print(f);
+
+        f+=4000;
+
+        System.out.print(f);
+
+    }
+
+}
+
+13.
+package com.metanit;
+
+public class Main {
+
+    public static void main(String[] args) {
+
+        double d = 1e-305 * Math.PI;
+
+        System.out.print(d);
+
+        for (int i = 0; i < 4; i++)
+
+            System.out.print(d /= 100000);
+
+    }
+
+}
+
+14.
+package com.metanit;
+
+public class Main {
+
+public static void main(String[] args) {
+
+System.out.print(1/2);
+
+System.out.print(1/2.);
+
+}
+
+}
+
+15.
+package com.metanit;
+
+public class Main {
+
+public static void main(String[] args) {
+
+int x=3;
+
+int y=5;
+
+System.out.print (x/y);
+
+System.out.print((double)x/y);
+
+System.out.print(1.0*x/y);
+
+}
+
+}
+
+16.
+package com.metanit;
+
+public class Main {
+
+public static void main(String[] args) {
+
+long l=111111111111L;
+
+float f = l;
+
+l = (long) f;
+
+System.out.print(l);
+
+}
+
+}
