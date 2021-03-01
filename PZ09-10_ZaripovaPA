@@ -1,6 +1,6 @@
 ЗАДАНИЕ 1
 ========================
-1.
+----1.
 package com.company;
 public class Main {
     public static void main(String[] args) {
@@ -9,7 +9,7 @@ public class Main {
     }
 }
 
-2.
+----2.
 package com.company;
 class JThread extends Thread {
     JThread(String name){
@@ -34,7 +34,7 @@ public class Main {
     }
 }
 
-3.
+----3.
 package com.company;
 class JThread extends Thread {
     JThread(String name){
@@ -60,7 +60,7 @@ public class Main {
     }
 }
 
-4.
+----4.
 package com.company;
 class JThread extends Thread {
     JThread(String name){
@@ -93,7 +93,7 @@ public class Main {
     }
 }
 
-5.
+----5.
 package com.company;
 class MyThread implements Runnable {
     public void run(){
@@ -116,7 +116,7 @@ public class Main {
     }
 }
 
-6.
+----6.
 package com.company;
 class JThread extends Thread {
     JThread(String name){
@@ -148,7 +148,7 @@ public class Main {
     }
 }
 
-7.
+----7.
 package com.company;
 class CommonResource{
     int x=0;
@@ -181,7 +181,7 @@ public class Main {
     }
 }
 
-8.
+----8.
 package com.company;
 class CountThread implements Runnable{
     CommonResource res;
@@ -217,7 +217,7 @@ public class Main {
     }
 }
 
-9.
+----9.
 package com.company;
 // Класс Магазин, хранящий произведенные товары
 class Store{
@@ -283,7 +283,7 @@ public class Main {
     }
 }
 
-10.
+----10.
 package com.company;
 import java.util.concurrent.Semaphore;
 class CommonResource{
@@ -324,7 +324,7 @@ public class Main {
     }
 }
 
-11.
+----11.
 package com.company;
 import java.util.concurrent.Semaphore;
 // класс философа
@@ -374,7 +374,7 @@ public class Main {
     }
 }
 
-12.
+----12.
 package com.company;
 import java.util.concurrent.Exchanger;
 class PutThread implements Runnable{
@@ -419,7 +419,7 @@ public class Main {
     }
 }
 
-13.
+----13.
 package com.company;
 import java.util.concurrent.Phaser;
 class PhaseThread implements Runnable{
@@ -460,7 +460,7 @@ public class Main {
     }
 }
 
-14.
+----14.
 package com.company;
 import java.util.concurrent.Phaser;
 public class Main {
