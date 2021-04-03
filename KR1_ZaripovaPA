@@ -9,7 +9,7 @@ public class Main {
     }
 }
 
-3)
+2)
 package com.company;
 public class Main {
     public static void main(String[] args) {
