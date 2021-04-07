@@ -68,6 +68,21 @@ public class Main {
 ---------------
 -----1) Даны два числа. Если первое число больше второго, то вывести yes, иначе поменять значения этих переменных и вывести их на экран.
 
+package com.company;
+public class Main {
+    public static void main(String[] args) {
+        int a = 10, b =5 ,c;
+        if (a > b){
+            System.out.println("yes");
+        }else {
+            c = b ;
+            b = a ;
+            a = c;
+            System.out.println(" a = " + a + " b = " + b);
+        }
+    }
+}
+
 -----2) Дано четырехзначное число. Если оно читается слева направо и справа налево одинаково, то вывести yes, иначе no.
 
 package com.company;
