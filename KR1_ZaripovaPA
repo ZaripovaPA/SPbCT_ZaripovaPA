@@ -27,9 +27,28 @@ public class Main {
 ---------------
 ЗАДАНИЕ 2
 ---------------
------1)	Пользователь вводит цены 1 кг конфет и 1 кг печенья. Найдите стоимость:
-        а) одной покупки из 300 г конфет и 400 г печенья;
-        б) трех покупок, каждая из 2 кг печенья и 1 кг 800 г конфет.
+-----1)	Известно, что x кг конфет стоит a рублей. Определите, сколько стоит y кг этих конфет, а также сколько кг конфет можно купить на k рублей.
+        Все значения вводит пользователь.
+        
+        package com.metanit;
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        System.out.print("Введите x кг. конфет = ");
+        double x = in.nextDouble();
+        System.out.print("Введите a рублей = ");
+        double a = in.nextDouble();
+        double Kg = a/x;
+        System.out.print("\n Цена за " + x + " кг. конфет - " + a + " рублей \n Цена за 1 кг. - " + Kg + "\n");
+        System.out.print("\n Введите y кг. конфет = ");
+        double y = in.nextDouble();
+        System.out.print("\n Цена за " + y + " кг. конфет - " + (Kg*y) + " рублей");
+        System.out.print("\n Введите k рублей = ");
+        double k = in.nextDouble();
+        System.out.print("За " + k + " рублей вы можете купить " + (k/Kg) + " кг. конфет");
+    }
+}
 
 
 -----2) Пользователь вводит количество недель, месяцев, лет и получает количество дней за это время. Считать, что в месяце 30 дней.
